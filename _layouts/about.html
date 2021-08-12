@@ -54,6 +54,9 @@ layout: default
             <div class="contact-icons">
             {% include social.html %}
             </div>
+    {% if page.software %}
+      {% include software.html %}
+    {% endif %}
 
             <div class="contact-note">
               {{ site.contact_note }}

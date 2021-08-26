@@ -11,7 +11,7 @@
   DONGHO KANG
 
 
-  | blog
+  | UnityMeshImporter: a run-time mesh importer for Unity
 
 </title>
 <meta name="description" content="I am a doctoral student at ETH Zurich and a research assistant at Computational Robotics Lab. My research aims to create a legged robot that can perform natural, animal-like motion. Thus, my research interests are broad ranging to legged locomotion control, computational model of character animation and design optimization for robotics applications.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/UnityMeshImporter/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -98,18 +98,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -166,44 +162,50 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>DONGHO KANG</h1>
-    <h2>Robotics student based in Zurich.</h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">UnityMeshImporter: a run-time mesh importer for Unity</h1>
+    <p class="post-meta">April 12, 2020 • Dongho Kang</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/bio-inspired-robots/">Building Bio-inspired Quadrupedal Robots</a></h3>
-        <p class="post-meta">December 9, 2020</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/UnityMeshImporter/">UnityMeshImporter: a run-time mesh importer for Unity</a></h3>
-        <p class="post-meta">April 12, 2020</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/simbenchmark/">SimBenchmark: Physics Engine Benchmark for Robotics Applications</a></h3>
-        <p class="post-meta">June 8, 2018</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2017/programming-for-robotics-ros/">Exercises of Programming for Robotics – ROS</a></h3>
-        <p class="post-meta">March 21, 2017</p>
-        <p></p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <p>
+    Unity does not support run-time mesh import from files outside of the project for performance. 
+    Fortunately, <a href="https://bitbucket.org/Starnick/assimpnet">AssimpNet</a> provides nice Unity plugin enables loading various formats of mesh objects.
+</p>
+
+<p>
+    I wrote a Unity package based on this: <b>UnityMeshImporter</b>. This package loads mesh file by AssimpNet and convert it to a Unity GameObject. The source code is available on <a href="https://github.com/eastskykang/UnityMeshImporter">GitHub</a>.
+</p>
+<p>
+    It just works like this: 
+</p>
+
+<figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">using</span> <span class="nn">UnityMeshImporter</span><span class="p">;</span>
+
+<span class="kt">string</span> <span class="n">meshFile</span> <span class="p">=</span> <span class="s">"YOUR-MESH-FILE-PATH"</span><span class="p">;</span>
+<span class="kt">var</span> <span class="n">ob</span> <span class="p">=</span> <span class="n">MeshImporter</span><span class="p">.</span><span class="nf">Load</span><span class="p">(</span><span class="n">meshFile</span><span class="p">);</span> </code></pre></figure>
+
+<br>
+
+<p>
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/2020-04-12/unity-mesh-importer.gif" alt="raisim-zerogravity-gif" title="Zero gravity test">
+</p>
+
+<p>
+    Very simple! 
+</p>
+<p>
+    You can find a simple example Unity app <a href="https://github.com/eastskykang/UnityMeshImportExample">here.</a> 
+    Please star the projects if you like it. Any comments or issue rerporting through GitHub issue is welcomed. 
+    This project is also used for <a href="https://github.com/leggedrobotics/RaiSimUnity">RaiSimUity</a> project.
+</p>
+  </article>
 
   
-
 
 </div>
 

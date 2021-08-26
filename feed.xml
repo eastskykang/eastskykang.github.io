@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-26T15:24:58+00:00</updated><id>/feed.xml</id><title type="html">DONGHO KANG</title><subtitle>I am a doctoral student at ETH Zurich and a research assistant at Computational Robotics Lab. My research aims to create a legged robot that can perform natural, animal-like motion. Thus, my research interests are broad ranging to legged locomotion control, computational model of character animation and design optimization for robotics applications.
+</subtitle><entry><title type="html">Building Bio-inspired Quadrupedal Robots</title><link href="/bio-inspired-robots/" rel="alternate" type="text/html" title="Building Bio-inspired Quadrupedal Robots" /><published>2020-12-09T13:19:33+00:00</published><updated>2020-12-09T13:19:33+00:00</updated><id>/bioinspired-robot</id><content type="html" xml:base="/bio-inspired-robots/">&lt;p&gt;
+    We are building bio-inspired quadrupedal robots.
+    Our goal is to design mechanisms and control strategies that can generate more animal-like walking
+    motion for legged robots and eventually to bring those robots to people's daily life.
+&lt;/p&gt;
+
+&lt;p&gt;
+    Our research interests are broad-ranging from control and planning of legged robots to design
+    optimization, digital fabrication and finally human-robot interaction.
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;!-- https://github.com/nathancy/jekyll-embed-video --&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+    &lt;iframe
+    src=&quot;https://www.youtube.com/embed/6-zTPTL0fJY&quot;
+    width=&quot;700&quot;
+    height=&quot;480&quot;
+    frameborder=&quot;0&quot;
+    allowfullscreen=&quot;&quot;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;Student Projects&lt;/h1&gt;
+
+&lt;p&gt;
+    We are currently looking for self-motivated Master students who wants to participate in one of our 3-month
+    (14-weeks, part-time) or 6-month (full-time) research projects. Please send your CV and short motivation letter to
+    &lt;a href=&quot;mailto:kangd@ethz.ch&quot;&gt;Dongho Kang&lt;/a&gt;
+    if you are interested in.
+&lt;/p&gt;
+
+&lt;h2&gt;Available Topics&lt;/h2&gt;
+
+&lt;h3&gt;Real robot deployment of model-based controller&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Semester project (14 weeks)&lt;/li&gt;
+    &lt;li&gt;Starting date: From July, 2021&lt;/li&gt;
+    &lt;li&gt;Prerequisite courses:
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Robot Dynamics&lt;/b&gt; or &lt;b&gt;Computational Models of Motion for Character Animation and Robotics
+                    (required)&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Recursive Estimation (required)&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;Model Predictive Control (optional)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Required skills:
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;C++ programming (required)&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;experiences with ROS (optional)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+    In this project, you will implement one of the current state-of-the-art model-based controller or state estimation
+    algorithm for legged robots in C++. We aim to deploy the new controller/estimator to Unitree A1 quadrupedal robot,
+    and benchmark the performance.
+&lt;/p&gt;
+
+&lt;p&gt;
+    Note. this project is a rather research engineering project requires rich engineering experiences in control and
+    robot programming. We do not aim to publish a paper.
+&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-sm mt-3 mt-md-0&quot;&gt;
+        &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/2020-12-09/a1.jpg&quot; alt=&quot;&quot; title=&quot;teaser&quot;/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;An automatic control gain tuning algorithm for legged robot locomotion controllers&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Master's thesis (6 months, full-time)&lt;/li&gt;
+    &lt;li&gt;Starting date: TBD&lt;/li&gt;
+    &lt;li&gt;Prerequisite courses:
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Robot Dynamics&lt;/b&gt; or &lt;b&gt;Computational Models of Motion for Character Animation and Robotics&lt;/b&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Required skills:
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;C++ programming (required)&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;experiences with ROS (optional)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Kinematic mapping for motion generation of quadrupedal locomotion&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Master's thesis (6 months, full-time)&lt;/li&gt;
+    &lt;li&gt;Starting date: TBD&lt;/li&gt;
+    &lt;li&gt;Prerequisite courses:
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Robot Dynamics&lt;/b&gt; or &lt;b&gt;Computational Models of Motion for Character Animation and Robotics&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Deep Learning&lt;/b&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Required skills:
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;C++ and Python programming (required)&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Deep Learning&lt;/b&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;For students from research or educational institutes other than ETH&lt;/h2&gt;
+
+&lt;p&gt;
+    The Master's semester project and thesis project are part of the Master's degree program at ETH Zurich and &lt;b&gt;we
+        cannot provide any financial support for cost of living and neither legal support for your visa process.&lt;/b&gt;
+    However, there are plenty of opportunities to visit ETH for research exchanging purposes. So please make sure you
+    can visit ETH and Switzerland
+    with legitimated permission supported by one of these programmes before you contact us.
+&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://ethz.ch/en/studies/non-degree-courses/exchange-and-visiting-studies.html&quot;&gt;Exchange and visiting
+            studies&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://inf.ethz.ch/studies/summer-research-fellowship.html&quot;&gt;ETH Student Summer Research Fellowship
+            (Department of Computer Science)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://center-for-robotics.ethz.ch/education/robotics-student-fellowship.html&quot;&gt;ETH Robotics Student
+            Fellowship&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- &lt;hr&gt;
+&lt;h1&gt;Previous Projects&lt;/h1&gt;
+
+&lt;h2&gt;Animal-like Motion Generation for Legged Robots&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WjueeKK3oH4&quot; frameborder=&quot;0&quot;
+    allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;br&gt;
+
+&lt;h2&gt;Legged Locomotion Planning and Control&lt;/h2&gt;
+
+&lt;figure&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ql3ij09fPZU&quot; frameborder=&quot;0&quot;
+    allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/figure&gt;    
+&lt;br&gt;
+
+&lt;figure&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FPQ5kdBQRsg&quot; frameborder=&quot;0&quot;
+    allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+
+&lt;figure&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fV7wi_eGgoU&quot; frameborder=&quot;0&quot;
+    allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;figcaption align=&quot;bottom&quot;&gt;PD control is not an ideal solution for legged locomotion. But how unstable it is? What is an alternative solution? (Credit: Luohong Wu)&lt;/figcaption&gt; 
+&lt;/figure&gt;    
+
+&lt;br&gt;
+
+&lt;h2&gt;Robot Design and Fabrication&lt;/h2&gt;
+
+&lt;figure&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yl4g60O9pSY&quot; frameborder=&quot;0&quot;
+    allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;
+    allowfullscreen&gt;&lt;/iframe&gt;
+&lt;figcaption align=&quot;bottom&quot;&gt;Reproducing a robot leg of the &lt;a href=&quot;https://open-dynamic-robot-initiative.github.io/&quot;&gt;Open Dynamic Robot Initiative&lt;/a&gt; project. (Credit: Yannick Koster)&lt;/figcaption&gt; 
+&lt;/figure&gt; --&gt;</content><author><name>Dongho Kang</name></author><category term="Robotics" /><category term="LeggedRobotics" /><category term="StudentProjects" /><summary type="html">We are building bio-inspired quadrupedal robots. Our goal is to design mechanisms and control strategies that can generate more animal-like walking motion for legged robots and eventually to bring those robots to people's daily life.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/%5Cimg/2020-12-09/crl-legged-robots.png" /><media:content medium="image" url="/%5Cimg/2020-12-09/crl-legged-robots.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">UnityMeshImporter: a run-time mesh importer for Unity</title><link href="/UnityMeshImporter/" rel="alternate" type="text/html" title="UnityMeshImporter: a run-time mesh importer for Unity" /><published>2020-04-12T09:38:33+00:00</published><updated>2020-04-12T09:38:33+00:00</updated><id>/unity-mesh-importer</id><content type="html" xml:base="/UnityMeshImporter/">&lt;p&gt;
+    Unity does not support run-time mesh import from files outside of the project for performance. 
+    Fortunately, &lt;a href=&quot;https://bitbucket.org/Starnick/assimpnet&quot;&gt;AssimpNet&lt;/a&gt; provides nice Unity plugin enables loading various formats of mesh objects.
+&lt;/p&gt;
+
+&lt;p&gt;
+    I wrote a Unity package based on this: &lt;b&gt;UnityMeshImporter&lt;/b&gt;. This package loads mesh file by AssimpNet and convert it to a Unity GameObject. The source code is available on &lt;a href=&quot;https://github.com/eastskykang/UnityMeshImporter&quot;&gt;GitHub&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+    It just works like this: 
+&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;UnityMeshImporter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;meshFile&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;YOUR-MESH-FILE-PATH&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ob&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MeshImporter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;meshFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;br&gt;
+
+&lt;p&gt;
+    &lt;img class=&quot;img-fluid rounded z-depth-1&quot; src=&quot;/assets/img/2020-04-12/unity-mesh-importer.gif&quot; alt=&quot;raisim-zerogravity-gif&quot; title=&quot;Zero gravity test&quot;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+    Very simple! 
+&lt;/p&gt;
+&lt;p&gt;
+    You can find a simple example Unity app &lt;a href=&quot;https://github.com/eastskykang/UnityMeshImportExample&quot;&gt;here.&lt;/a&gt; 
+    Please star the projects if you like it. Any comments or issue rerporting through GitHub issue is welcomed. 
+    This project is also used for &lt;a href=&quot;https://github.com/leggedrobotics/RaiSimUnity&quot;&gt;RaiSimUity&lt;/a&gt; project.
+&lt;/p&gt;</content><author><name>Dongho Kang</name></author><category term="Unity" /><category term="Assimp" /><category term="RaiSimUnity" /><summary type="html">Unity does not support run-time mesh import from files outside of the project for performance. Fortunately, AssimpNet provides nice Unity plugin enables loading various formats of mesh objects.</summary></entry><entry><title type="html">SimBenchmark: Physics Engine Benchmark for Robotics Applications</title><link href="/blog/2018/simbenchmark/" rel="alternate" type="text/html" title="SimBenchmark: Physics Engine Benchmark for Robotics Applications" /><published>2018-06-08T16:08:45+00:00</published><updated>2018-06-08T16:08:45+00:00</updated><id>/blog/2018/simbenchmark</id><content type="html" xml:base="/blog/2018/simbenchmark/">&lt;p&gt;
+&lt;blockquote&gt;
+    SimBenchmark is a benchmark suite for state-of-the-art physics engines.
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+    I worked on this project while I was developing &lt;a href=&quot;http://raisim.com/&quot;&gt;RAISIM&lt;/a&gt;.
+    We evaluated a few widely used physics engines for robotics and machine learning applications. The list of the
+    engines is as follows:
+&lt;ul&gt;
+    &lt;li&gt;RAISIM&lt;/li&gt;
+    &lt;li&gt;Bullet Physics&lt;/li&gt;
+    &lt;li&gt;Open Dynamics Engine&lt;/li&gt;
+    &lt;li&gt;Multi-Joint dynamics with Contact (a.k.a. MuJoCo)&lt;/li&gt;
+    &lt;li&gt;DART Sim&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+    More details are on the &lt;a href=&quot;https://leggedrobotics.github.io/SimBenchmark/&quot;&gt;SimBenchmark website&lt;/a&gt;
+&lt;/p&gt;</content><author><name>Dongho Kang</name></author><category term="RaiSim" /><category term="SimBenchmark" /><category term="ETH" /><summary type="html">SimBenchmark is a benchmark suite for state-of-the-art physics engines.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/%5Cimg/2018-06-08/simbenchmark.png" /><media:content medium="image" url="/%5Cimg/2018-06-08/simbenchmark.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Exercises of Programming for Robotics – ROS</title><link href="/blog/2017/programming-for-robotics-ros/" rel="alternate" type="text/html" title="Exercises of Programming for Robotics – ROS" /><published>2017-03-21T00:45:40+00:00</published><updated>2017-03-21T00:45:40+00:00</updated><id>/blog/2017/programming-for-robotics-ros</id><content type="html" xml:base="/blog/2017/programming-for-robotics-ros/">&lt;p&gt;&lt;a href=&quot;http://www.rsl.ethz.ch/education-students/lectures/ros.html&quot;&gt;Programming for Robotics - ROS&lt;/a&gt; course is an open lecture by Prof. Marco Hutter of ETH Zürich Robotic System Laboratory. The course materials and &lt;a href=&quot;https://www.youtube.com/playlist?list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP&quot;&gt;online video lectures&lt;/a&gt; are avilable on the website.&lt;/p&gt;
+
+&lt;p&gt;I opened &lt;a href=&quot;https://github.com/EastskyKang/programming-for-robotics&quot;&gt;Github repository&lt;/a&gt; contains resources and source code for exercises from myself with Prof. Hutter's permission. Please use it for only private purposes.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rsl.ethz.ch/education-students/lectures/ros.html
+    &quot;&gt;Programming for Robotics - ROS&lt;/a&gt;는 ETH Zürich Robotic Systems Lab의 Marco Hutter 교수님이 2016년 2월에 개설한 오픈강좌입니다. 수업자료와 &lt;a href=&quot;https://www.youtube.com/playlist?list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP&quot;&gt;비디오 강의&lt;/a&gt;가 공개되어 있습니다. &lt;/p&gt;
+    
+    &lt;p&gt;일전에 개인적으로 문의하신 분들이 있어서 교수님의 허락을 받아 수업시간에 제가 작성한 실습코드를 공개합니다. 참고용으로 활용하실 수 있습니다. &lt;/p&gt;
+    
+    &lt;p&gt;소스코드는 &lt;a href=&quot;https://github.com/EastskyKang/programming-for-robotics&quot;&gt; Github repository &lt;/a&gt; 에서 내려받을 수 있습니다. 해당 실습이 ETH Zürich 학생들의 성적평가에 반영되기 때문에 무단으로 배포하지 말아주시길 부탁드립니다. &lt;/p&gt;</content><author><name>Dongho Kang</name></author><category term="ROS" /><category term="ETH" /><summary type="html">Programming for Robotics - ROS course is an open lecture by Prof. Marco Hutter of ETH Zürich Robotic System Laboratory. The course materials and online video lectures are avilable on the website.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/%5Cimg/2017-03-21/ros-course.png" /><media:content medium="image" url="/%5Cimg/2017-03-21/ros-course.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

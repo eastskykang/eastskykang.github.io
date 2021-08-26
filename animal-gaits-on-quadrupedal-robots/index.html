@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +10,7 @@
   DONGHO KANG
 
 
-  | blog
+  | Animal Gaits on Quadrupedal Robots Using Motion Matching and Model-Based Control
 
 </title>
 <meta name="description" content="I am a doctoral student at ETH Zurich and a research assistant at Computational Robotics Lab. My research aims to create a legged robot that can perform natural, animal-like motion. Thus, my research interests are broad ranging to legged locomotion control, computational model of character animation and design optimization for robotics applications.
@@ -37,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/animal-gaits-on-quadrupedal-robots/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -64,7 +63,69 @@
 <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
   </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Animal Gaits on Quadrupedal Robots Using Motion Matching and Model-Based Control",
+      "description": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)",
+      "published": "August 4, 2021",
+      "authors": [
+        
+        {
+          "author": "Dongho Kang",
+          "authorURL": "https://donghok.me/",
+          "affiliations": [
+            {
+              "name": "CRL<d-footnote>Computational Robotics Lab.</d-footnote>, ETH Zurich",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Simon Zimmermann",
+          "authorURL": "https://n.ethz.ch/~simonzi/",
+          "affiliations": [
+            {
+              "name": "CRL, ETH Zurich",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Stelian Coros",
+          "authorURL": "http://crl.ethz.ch/",
+          "affiliations": [
+            {
+              "name": "CRL, ETH Zurich",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class="fixed-top-nav ">
 
@@ -98,18 +159,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -165,47 +222,75 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <div class="header-bar">
-    <h1>DONGHO KANG</h1>
-    <h2>Robotics student based in Zurich.</h2>
+      <d-title>
+        <h1>Animal Gaits on Quadrupedal Robots Using Motion Matching and Model-Based Control</h1>
+        <p>2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)</p>
+      </d-title>
+
+      <d-byline></d-byline>
+
+      <d-article>
+        <div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+      <img class="img-fluid" src="/assets/img/2021-08-04/teaser.png" alt="" title="teaser"/>
   </div>
-
-
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/bio-inspired-robots/">Building Bio-inspired Quadrupedal Robots</a></h3>
-        <p class="post-meta">December 9, 2020</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/UnityMeshImporter/">UnityMeshImporter: a run-time mesh importer for Unity</a></h3>
-        <p class="post-meta">April 12, 2020</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/simbenchmark/">SimBenchmark: Physics Engine Benchmark for Robotics Applications</a></h3>
-        <p class="post-meta">June 8, 2018</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2017/programming-for-robotics-ros/">Exercises of Programming for Robotics – ROS</a></h3>
-        <p class="post-meta">March 21, 2017</p>
-        <p></p>
-      </li>
-    
-  </ul>
-
-  
-
-
 </div>
+
+<h1>Abstract</h1>
+
+<p>
+In this paper, we explore the challenge of generating animal-like walking motions for legged robots. 
+To this end, we propose a versatile and robust control pipeline that combines a state-of-the-art model-based controller with a data-driven technique that is commonly used in computer animation.
+We demonstrate the efficacy of our control framework on a variety of quadrupedal robots in  simulation. 
+We show, in particular, that our approach can automatically reproduce key characteristics of animal motions, including speed-specific gaits, unscripted footfall patterns for nonperiodic motions, and natural small variations in overall body movements.
+</p>
+
+<p>
+  <b>Preprint: [<a href="/assets/pdf/kang2021animal.pdf">PDF</a>]</b>
+</p>
+
+<h1>Supplementary Video</h1>
+
+<p>
+<!-- https://github.com/nathancy/jekyll-embed-video -->
+
+<div class="embed-container">
+    <iframe
+    src="https://www.youtube.com/embed/6-zTPTL0fJY"
+    width="700"
+    height="480"
+    frameborder="0"
+    allowfullscreen="">
+</iframe>
+</div>
+</p>
+
+<h1>Bibtex</h1>
+
+<p>
+<figure class="highlight"><pre><code class="language-txt" data-lang="txt">@inproceedings{kang2021animal,
+    title={Animal Gaits on Quadrupedal Robots Using Motion Matching and Model Based Control},
+    author={Kang, Dongho and Zimmermann, Simon and Coros, Stelian},
+    booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)},
+    year={2021},
+    organization={IEEE},
+}</code></pre></figure>
+</p>
+
+<hr>
+<h1>Acknowledgement</h1>
+
+<p>
+This work has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme.
+</p>
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
@@ -228,28 +313,7 @@
 
   </body>
 
-  <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
-
-
-  
-
-
-<!-- Medium Zoom JS -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-<script src="/assets/js/zoom.js"></script>
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
+  <d-bibliography src="/assets/bibliography/">
+  </d-bibliography>
 
 </html>

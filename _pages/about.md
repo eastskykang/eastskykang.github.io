@@ -6,7 +6,7 @@ description: Robotics student at ETH Zurich.
 
 profile:
   align: right
-  image: main/profile_rect4.png
+  image: main/profile_rect5.jpg
   address: >
     <p>Stampfenbachstrasse 48</p>
     <p>8092 Zurich</p>

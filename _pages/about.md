@@ -18,15 +18,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a doctoral student in computer science based in Zurich, Switzerland. 
+From 2019, I am a member of [Computational Robotics Lab](http://crl.ethz.ch), ETH Zurich, led by Prof. Stelian Coros.
 
 My research aims to generate natural, animal-like legged robot motion. 
 Thus, my research interests are broad ranging to legged locomotion control, computational model of character animation and finally design optimization for robotics applications. 
-Please see my curriculum vitae [here](https://drive.google.com/file/d/1_LJE2xl-80-AA4Tb0SPG62aufeCbYslc/view?usp=sharing) for a more detailed professional biography.
 
 Other than my professional bio, I am from Seoul, South Korea 🇰🇷 and currently live in Zurich, Switzerland 🇨🇭. 
-As I describe myself, I am an open source enthusiast, an indie game fan, and a classical music lover. 
-In my free time, I hike beautiful mountains in Switzerland, go to orchestral concerts and watch lovely Ghibli and Disney animations. :D
+As I describe myself, I am an open source enthusiast, a video game fan, and a classical music lover. 
+In my free time, I hike beautiful mountains in Switzerland, play video games, go to orchestral concerts and watch Ghibli and Disney movies (specifically, I am a big fan of Star Wars series). :D
 
 ------
 I am currently looking for self-motivated Master students (from ETH or students from any other institutes who can visit ETH Zurich by an available exchanging program) who are passionate to join our journey to build a bio-inspired legged robot. 

@@ -1,6 +1,6 @@
 ---
 title: Nonlinear Model Predictive Control for Quadrupedal Locomotion Using Second-Order Sensitivity Analysis
-description: ICRA 2022 - 6th Full-Day Workshop on Legged Robots
+description: Workshop paper presented in <a href="https://leggedrobots.org/">"ICRA 2022 - 6th Full-Day Workshop on Legged Robots".</a>
 layout: distill
 published: true
 date: 2022-05-19 14:44:33
@@ -32,14 +32,14 @@ permalink: /nmpc-for-quad-loco/
 <h1>Abstract</h1>
 
 <p>
-We present a versatile nonlinear model predictive control (NMPC) approach for quadrupedal locomotion. Our formulation jointly optimizes a base trajectory and a set of footholds over a finite time horizon based on simplified dynamics models. 
+We present a versatile nonlinear model predictive control (NMPC) formulation for quadrupedal locomotion. 
+Our formulation jointly optimizes a base trajectory and a set of footholds over a finite time horizon based on simplified dynamics models. 
 We leverage second-order sensitivity analysis and a sparse Gauss-Newton (SGN) method to solve the resulting optimal control problems. 
 We further describe our ongoing effort to verify our approach through simulation and hardware experiments. 
-Finally, we extend our locomotion framework to deal with challenging tasks that comprise gap crossing, movement on stepping stones, and multi-robot control.
+Finally, we extend our locomotion framework to deal with challenging tasks that comprise gap crossing, movement on stepping stones, and multi-robot control. 
 </p>
-
 <p>
-  <b>Paper: [Workshop]</b> &emsp; <b>Preprint: [<a href="{{ "/assets/pdf/kang2022nonlinear.pdf" | relative_url }}">PDF</a>]</b> 
+  <b>Paper: [<a href="https://arxiv.org/abs/2207.10465">ArXiv</a>]</b> &emsp; <b>Preprint: [<a href="{{ "/assets/pdf/kang2022nonlinear.pdf" | relative_url }}">PDF</a>]</b> 
 </p>
 
 <h1>Supplementary Video</h1>
@@ -50,6 +50,9 @@ Finally, we extend our locomotion framework to deal with challenging tasks that 
 
 <h1>Presentation</h1>
 
+<p>
+Video presentation for <a href="https://leggedrobots.org/">"ICRA 2022 - 6th Full-Day Workshop on Legged Robots".</a>
+</p>
 <p>
 {% include youtube_player.html id="CGtzHkMmNuY" %}
 </p>
@@ -72,11 +75,13 @@ Finally, we extend our locomotion framework to deal with challenging tasks that 
 
 <p>
 {% highlight txt %}
-@inproceedings{kang2022nonlinear,
-  title={Nonlinear Model Predictive Control for Quadrupedal Locomotion Using Second-Order Sensitivity Analysis},
-  author={Kang, Dongho and De Vincenti, Flavio and Coros, Stelian},
-  booktitle={ICRA 2022: 6th Full-Day Workshop on Legged Robots},
+@misc{kang2022nonlinear,
+  title={Nonlinear Model Predictive Control for Quadrupedal Locomotion Using Second-Order Sensitivity Analysis}, 
+  author={Dongho Kang and Flavio De Vincenti and Stelian Coros},
   year={2022},
+  eprint={2207.10465},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO}
 }
 {% endhighlight %}
 </p>

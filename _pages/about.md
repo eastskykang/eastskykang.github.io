@@ -8,8 +8,8 @@ profile:
   align: right
   image: main/profile_rect7.jpg
   address: >
-    <p>Stampfenbachstrasse 48</p>
-    <p>8092 Zurich</p>
+    <p>Wasserwerkstrasse 12</p>
+    <p>8006 Zurich</p>
     <p>Switzerland</p>
 
 news: true  # includes a list of news items

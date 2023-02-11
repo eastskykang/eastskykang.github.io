@@ -19,13 +19,13 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a doctoral student in computer science based in Zurich, Switzerland 🇨🇭. 
-From 2019, I am a scientific assistant of the [Computational Robotics Lab](http://crl.ethz.ch), ETH Zurich, led by Prof. Stelian Coros.
+From 2019, I am a scientific assistant of the [Computational Robotics Lab](http://crl.ethz.ch), ETH Zurich, under the supervision of Prof. Stelian Coros.
 
-My research aims to generate natural, animal-like legged robot motions. 
-Thus, my research interests are broad ranging to legged locomotion control, computational models of character animation and finally design optimization for robotics applications. 
+The goal of my research is to create legged robots that exhibit natural and animal-like behaviors. 
+Thus, my research interests are broad ranging to legged locomotion control, computational models of character animation and design optimization for robotics applications. 
 
 Other than my professional bio, I am from Seoul, South Korea 🇰🇷. 
-As I describe myself, I am an open source enthusiast, a video game fan, and a classical music lover. 
+As I describe myself, I am a video game fan, and a classical music lover. 
 In my free time, I hike beautiful mountains in Switzerland, play video games, go to orchestral concerts and watch Ghibli and Disney movies (specifically, I am a big fan of Star Wars series). :D
 
 ------

@@ -6,7 +6,7 @@ description: Robotics student at ETH Zurich.
 
 profile:
   align: right
-  image: main/profile_rect7.jpg
+  image: main/profile_rect8.jpg
   address: >
     <p>Wasserwerkstrasse 12</p>
     <p>8006 Zurich</p>

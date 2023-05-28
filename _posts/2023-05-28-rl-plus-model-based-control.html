@@ -1,0 +1,95 @@
+---
+title: RL + Model-based Control&colon; Using On-demand Optimal Control to Learn Versatile Legged Locomotion
+<!-- description: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022) -->
+layout: distill
+published: true
+date: 2023-05-27 16:10:33
+img: /assets/img/2023-05-28/kang2023rl.png
+permalink: /rl-plus-model-based-control/
+tags: [robotics, publication]
+authors:
+  - name: Dongho Kang
+    url: "https://donghok.me/"
+    affiliations:
+      name: CRL<d-footnote>Computational Robotics Lab.</d-footnote>, ETH Zurich
+  - name: Jin Cheng
+    affiliations:
+      name: CRL, ETH Zurich
+  - name: Miguel Zamora
+    affiliations:
+      name: CRL, ETH Zurich
+  - name: Fatemeh Zargarbashi
+    affiliations:
+      name: CRL, ETH Zurich
+  - name: Stelian Coros
+    url: "http://crl.ethz.ch/"
+    affiliations:
+      name: CRL, ETH Zurich
+bibliography:
+---
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+      <img class="img-fluid" src="{{ '/assets/img/2023-05-28/kang2023rl.png' | relative_url }}" alt="" title="teaser"/>
+  </div>
+</div>
+
+<p> <!-- empty space for margin --> </p> 
+
+<h1>Abstract</h1>
+
+<p>
+This letter presents a versatile control method for dynamic and robust legged locomotion that integrates model-based optimal control with reinforcement learning (RL). 
+Our approach involves training an RL policy to imitate reference motions generated on-demand through solving a finite-horizon optimal control problem. 
+This integration enables the policy to leverage human expertise in generating motions to imitate while also allowing it to generalize to more complex scenarios that require a more complex dynamics model. 
+Our method successfully learns control policies capable of generating diverse quadrupedal gait patterns and maintaining stability against unexpected external perturbations in both simulation and hardware experiments. 
+Furthermore, we demonstrate the adaptability of our method to more complex locomotion tasks on uneven terrain without the need for excessive reward shaping or hyperparameter tuning.
+</p>
+
+<!-- <p>
+  <b>Preprint: [<a href="{{ "/assets/pdf/kang2022animal.pdf" | relative_url }}">PDF</a>]</b> 
+</p> -->
+
+<hr>
+
+<h1>Supplementary Video</h1>
+
+<p>
+{% include youtube_player.html id="gXDP87yVq4o" %}
+</p>
+
+<!-- <hr>
+
+<h1>Presentation</h1>
+
+<p>
+</p> -->
+
+<!-- <hr>
+
+<h1>Bibtex</h1>
+
+<p>
+{% highlight txt %}
+@inproceedings{kang2022animal,
+  title={Animal Motions on Legged Robots Using Nonlinear Model Predictive Control}, 
+  author={Kang, Dongho and De Vincenti, Flavio and Adami, Naomi C. and Coros, Stelian},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  pages={11955-11962},
+  year={2022},
+  organization={IEEE},
+  doi={10.1109/IROS47612.2022.9981945}
+}
+{% endhighlight %}
+</p> -->
+
+<hr>
+<h1>Acknowledgement</h1>
+
+<p>
+We express our gratitude to Zijun Hui for his assistance with the robot experiments.
+</p>
+
+<p>
+This work has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme. The ethics have been approved by the veterinary authorities of the canton Z&uuml;rich.
+</p>

@@ -39,11 +39,12 @@ bibliography:
 <h1>Abstract</h1>
 
 <p>
-This letter presents a versatile control method for dynamic and robust legged locomotion that integrates model-based optimal control with reinforcement learning (RL). 
-Our approach involves training an RL policy to imitate reference motions generated on-demand through solving a finite-horizon optimal control problem. 
-This integration enables the policy to leverage human expertise in generating motions to imitate while also allowing it to generalize to more complex scenarios that require a more complex dynamics model. 
-Our method successfully learns control policies capable of generating diverse quadrupedal gait patterns and maintaining stability against unexpected external perturbations in both simulation and hardware experiments. 
-Furthermore, we demonstrate the adaptability of our method to more complex locomotion tasks on uneven terrain without the need for excessive reward shaping or hyperparameter tuning.
+This letter presents a control framework that combines model-based optimal control and reinforcement learning (RL) to achieve versatile and robust legged locomotion. 
+Our approach enhances the RL training process by incorporating on-demand reference motions generated through finite-horizon optimal control, covering a broad range of velocities and gaits.
+These reference motions serve as targets for the RL policy to imitate, resulting in the development of robust control policies that can be learned efficiently and reliably. 
+Moreover, by considering whole-body dynamics, RL overcomes the inherent limitations of modelling simplifications.
+Through simulation and hardware experiments, we demonstrate the robustness and controllability of the RL training process within our framework. 
+Furthermore, our method demonstrates the ability to generalize reference motions and handle more complex locomotion tasks that may pose challenges for the simplified model, leveraging the flexibility of RL.
 </p>
 
 <p>

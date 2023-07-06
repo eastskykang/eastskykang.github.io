@@ -1,0 +1,60 @@
+<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Nonlinear Model Predictive Control for Quadrupedal Locomotion Using Second-Order Sensitivity Analysis | DONGHO KANG</title> <meta name="author" content="Dongho Kang"/> <meta name="description" content="ICRA 2022 - 6th Full-Day Workshop on Legged Robots"/> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"/> <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"/> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous"> <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light"/> <link rel="stylesheet" href="/assets/css/main.css"> <link rel="canonical" href="https://donghok.me/nmpc-for-quad-loco/"> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script type="text/javascript">window.MathJax={tex:{tags:"ams"}};</script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script> <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script src="/assets/js/distillpub/template.v2.js"></script> <script src="/assets/js/distillpub/transforms.v2.js"></script> <script src="/assets/js/distillpub/overrides.js"></script> </head> <d-front-matter> <script async type="text/json">{
+      "title": "Nonlinear Model Predictive Control for Quadrupedal Locomotion Using Second-Order Sensitivity Analysis",
+      "description": "ICRA 2022 - 6th Full-Day Workshop on Legged Robots",
+      "published": "May 19, 2022",
+      "authors": [
+        {
+          "author": "Dongho Kang",
+          "authorURL": "https://donghok.me/",
+          "affiliations": [
+            {
+              "name": "CRL<d-footnote>Computational Robotics Lab.</d-footnote>, ETH Zurich",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "author": "Flavio De Vintenti",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "CRL, ETH Zurich",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "author": "Stelian Coros",
+          "authorURL": "http://crl.ethz.ch/",
+          "affiliations": [
+            {
+              "name": "CRL, ETH Zurich",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script> </d-front-matter> <body class="fixed-top-nav"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="https://donghok.me/">DONGHO KANG</a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about</a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog</a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">cv</a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications</a> </li> <li class="nav-item "> <a class="nav-link" href="/bio-inspired-robots/">student projects</a> </li> </ul> </div> </div> </nav> </header> <div class="post distill"> <d-title> <h1>Nonlinear Model Predictive Control for Quadrupedal Locomotion Using Second-Order Sensitivity Analysis</h1> <p>ICRA 2022 - 6th Full-Day Workshop on Legged Robots</p> </d-title> <d-byline></d-byline> <d-article> <div class="row"> <div class="col-sm mt-3 mt-md-0"> <img class="img-fluid" src="/assets/img/2022-05-19/teaser.png" alt="" title="teaser"> </div> </div> <p> </p> <h1>Abstract</h1> <p> We present a versatile nonlinear model predictive control (NMPC) formulation for quadrupedal locomotion. Our formulation jointly optimizes a base trajectory and a set of footholds over a finite time horizon based on simplified dynamics models. We leverage second-order sensitivity analysis and a sparse Gauss-Newton (SGN) method to solve the resulting optimal control problems. We further describe our ongoing effort to verify our approach through simulation and hardware experiments. Finally, we extend our locomotion framework to deal with challenging tasks that comprise gap crossing, movement on stepping stones, and multi-robot control. </p> <p> <b>Paper: [<a href="https://arxiv.org/abs/2207.10465" target="_blank" rel="noopener noreferrer">ArXiv</a>]</b>   <b>Workshop Preprint: [<a href="/assets/pdf/kang2022nonlinear.pdf">PDF</a>]</b> </p> <hr> <h1>Supplementary Video</h1> <p> </p> <div class="embed-container"> <iframe src="https://www.youtube.com/embed/BrJSRlAJaX4" width="700" height="480" frameborder="0" allowfullscreen=""> </iframe> </div> <hr> <h1>Presentation</h1> <p> Video presentation for <a href="https://leggedrobots.org/" target="_blank" rel="noopener noreferrer">"ICRA 2022 - 6th Full-Day Workshop on Legged Robots".</a> </p> <p> </p> <div class="embed-container"> <iframe src="https://www.youtube.com/embed/CGtzHkMmNuY" width="700" height="480" frameborder="0" allowfullscreen=""> </iframe> </div> <hr> <h1>Demos</h1> <p> </p> <div class="embed-container"> <iframe src="https://www.youtube.com/embed/J9GfVgz80lk" width="700" height="480" frameborder="0" allowfullscreen=""> </iframe> </div> <p> </p> <div class="embed-container"> <iframe src="https://www.youtube.com/embed/D99qXOs9uQs" width="700" height="480" frameborder="0" allowfullscreen=""> </iframe> </div> <p> </p> <div class="embed-container"> <iframe src="https://www.youtube.com/embed/rUv4jwwKFiY" width="700" height="480" frameborder="0" allowfullscreen=""> </iframe> </div> <p> </p> <div class="embed-container"> <iframe src="https://www.youtube.com/embed/NCCBZf-Nuas" width="700" height="480" frameborder="0" allowfullscreen=""> </iframe> </div> <hr> <h1>Bibtex</h1> <p> <figure class="highlight"><pre><code class="language-txt" data-lang="txt">@misc{kang2022nonlinear,
+  title={Nonlinear Model Predictive Control for Quadrupedal Locomotion Using Second-Order Sensitivity Analysis}, 
+  author = {Kang, Dongho and De Vincenti, Flavio and Coros, Stelian},
+  url = {https://arxiv.org/abs/2207.10465},
+  year={2022},
+  eprint={2207.10465},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+}</code></pre></figure> </p> <hr> <h1>Acknowledgment</h1> <p> This work has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 866480.) </p> </d-article> <d-appendix> <d-footnote-list></d-footnote-list> <d-citation-list></d-citation-list> </d-appendix> </div> <footer class="fixed-bottom"> <div class="container mt-0"> © Copyright 2023 Dongho Kang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Last updated: July 06, 2023. </div> </footer> <d-bibliography src="/assets/bibliography/"></d-bibliography> <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> </body> </html>

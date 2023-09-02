@@ -215,10 +215,11 @@
 <p>
 This letter presents a control framework that combines model-based optimal control and reinforcement learning (RL) to achieve versatile and robust legged locomotion. 
 Our approach enhances the RL training process by incorporating on-demand reference motions generated through finite-horizon optimal control, covering a broad range of velocities and gaits.
-These reference motions serve as targets for the RL policy to imitate, resulting in the development of robust control policies that can be learned efficiently and reliably. 
-Moreover, by considering whole-body dynamics, RL overcomes the inherent limitations of modelling simplifications.
-Through simulation and hardware experiments, we demonstrate the robustness and controllability of the RL training process within our framework. 
-Furthermore, our method demonstrates the ability to generalize reference motions and handle more complex locomotion tasks that may pose challenges for the simplified model, leveraging the flexibility of RL.
+These reference motions serve as targets for the RL policy to imitate, leading to the development of robust control policies that can be learned with reliability. 
+Furthermore, by utilizing realistic simulation data that captures whole-body dynamics, RL effectively overcomes the inherent limitations in reference motions imposed by modeling simplifications. 
+We validate the robustness and controllability of the RL training process within our framework through a series of experiments. 
+In these experiments, our method showcases its capability to generalize reference motions and effectively handle more complex locomotion tasks that may pose challenges for the simplified model, thanks to RL’s flexibility. 
+Additionally, our framework effortlessly supports the training of control policies for robots with diverse dimensions, eliminating the necessity for robot-specific adjustments in the reward function and hyperparameters.
 </p>
 
 <p>
@@ -309,7 +310,7 @@ We express our gratitude to Zijun Hui for his assistance with the robot experime
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Dongho  Kang. Last updated: August 23, 2023.
+        © Copyright 2023 Dongho  Kang. Last updated: September 02, 2023.
       </div>
     </footer>
 

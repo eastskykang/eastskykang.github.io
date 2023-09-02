@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://donghok.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://donghok.me/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-23T13:33:38+00:00</updated><id>https://donghok.me/feed.xml</id><title type="html">DONGHO KANG</title><subtitle>I am a doctoral student at ETH Zurich and a research assistant at Computational Robotics Lab. My research aims to create a legged robot that can perform natural, animal-like motion. Thus, my research interests are broad ranging to legged locomotion control, computational model of character animation and design optimization for robotics applications.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://donghok.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://donghok.me/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-02T15:28:51+00:00</updated><id>https://donghok.me/feed.xml</id><title type="html">DONGHO KANG</title><subtitle>I am a doctoral student at ETH Zurich and a research assistant at Computational Robotics Lab. My research aims to create a legged robot that can perform natural, animal-like motion. Thus, my research interests are broad ranging to legged locomotion control, computational model of character animation and design optimization for robotics applications.
 </subtitle><entry><title type="html">Tuning Legged Locomotion Controllers via Safe Bayesian Optimization</title><link href="https://donghok.me/tuning-legged-locomotion-controllers/" rel="alternate" type="text/html" title="Tuning Legged Locomotion Controllers via Safe Bayesian Optimization" /><published>2023-06-08T13:58:00+00:00</published><updated>2023-06-08T13:58:00+00:00</updated><id>https://donghok.me/tuning-legged-locomotion-controllers</id><content type="html" xml:base="https://donghok.me/tuning-legged-locomotion-controllers/"><![CDATA[<div class="row">
   <div class="col-sm mt-3 mt-md-0">
       <img class="img-fluid" src="/assets/img/widmer2023tuning/widmer2023tuning.png" alt="" title="teaser"/>
@@ -84,10 +84,11 @@ and the Microsoft Swiss Joint Research Center.
 <p>
 This letter presents a control framework that combines model-based optimal control and reinforcement learning (RL) to achieve versatile and robust legged locomotion. 
 Our approach enhances the RL training process by incorporating on-demand reference motions generated through finite-horizon optimal control, covering a broad range of velocities and gaits.
-These reference motions serve as targets for the RL policy to imitate, resulting in the development of robust control policies that can be learned efficiently and reliably. 
-Moreover, by considering whole-body dynamics, RL overcomes the inherent limitations of modelling simplifications.
-Through simulation and hardware experiments, we demonstrate the robustness and controllability of the RL training process within our framework. 
-Furthermore, our method demonstrates the ability to generalize reference motions and handle more complex locomotion tasks that may pose challenges for the simplified model, leveraging the flexibility of RL.
+These reference motions serve as targets for the RL policy to imitate, leading to the development of robust control policies that can be learned with reliability. 
+Furthermore, by utilizing realistic simulation data that captures whole-body dynamics, RL effectively overcomes the inherent limitations in reference motions imposed by modeling simplifications. 
+We validate the robustness and controllability of the RL training process within our framework through a series of experiments. 
+In these experiments, our method showcases its capability to generalize reference motions and effectively handle more complex locomotion tasks that may pose challenges for the simplified model, thanks to RL’s flexibility. 
+Additionally, our framework effortlessly supports the training of control policies for robots with diverse dimensions, eliminating the necessity for robot-specific adjustments in the reward function and hyperparameters.
 </p>
 
 <p>

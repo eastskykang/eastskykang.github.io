@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://donghok.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://donghok.me/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-15T09:23:19+00:00</updated><id>https://donghok.me/feed.xml</id><title type="html">DONGHO KANG</title><subtitle>I am a doctoral student at ETH Zurich and a research assistant at Computational Robotics Lab. My research aims to create a legged robot that can perform natural, animal-like motion. Thus, my research interests are broad ranging to legged locomotion control, computational model of character animation and design optimization for robotics applications.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://donghok.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://donghok.me/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-10-16T10:13:30+00:00</updated><id>https://donghok.me/feed.xml</id><title type="html">DONGHO KANG</title><subtitle>I am a doctoral student at ETH Zurich and a research assistant at Computational Robotics Lab. My research aims to create a legged robot that can perform natural, animal-like motion. Thus, my research interests are broad ranging to legged locomotion control, computational model of character animation and design optimization for robotics applications.
 </subtitle><entry><title type="html">Tuning Legged Locomotion Controllers via Safe Bayesian Optimization</title><link href="https://donghok.me/tuning-legged-locomotion-controllers/" rel="alternate" type="text/html" title="Tuning Legged Locomotion Controllers via Safe Bayesian Optimization" /><published>2023-06-08T13:58:00+00:00</published><updated>2023-06-08T13:58:00+00:00</updated><id>https://donghok.me/tuning-legged-locomotion-controllers</id><content type="html" xml:base="https://donghok.me/tuning-legged-locomotion-controllers/"><![CDATA[<div class="row">
   <div class="col-sm mt-3 mt-md-0">
       <img class="img-fluid" src="/assets/img/widmer2023tuning/widmer2023tuning.png" alt="" title="teaser"/>
@@ -10,7 +10,7 @@
 <h1>Abstract</h1>
 
 <p>
-In this paper, we present a data-driven strategy to simplify the deployment of model-based controllers in legged robotic hardware platforms. 
+This paper presents a data-driven strategy to streamline the deployment of model-based controllers in legged robotic hardware platforms. 
 Our approach leverages a model-free safe learning algorithm to automate the tuning of control gains, addressing the mismatch between the simplified model used in the control formulation and the real system.
 This method substantially mitigates the risk of hazardous interactions with the robot by sample-efficiently optimizing parameters within a probably safe region.
 Additionally, we extend the applicability of our approach to incorporate the different gait parameters as contexts, leading to a safe, sample-efficient exploration algorithm capable of tuning a motion controller for diverse gait patterns.
@@ -18,7 +18,7 @@ We validate our method through simulation and hardware experiments, where we dem
 </p>
 
 <p>
-  <b>Preprint: [<a href="/assets/pdf/widmer2023tuning.pdf">PDF</a>] / [<a href="https://arxiv.org/abs/2306.07092">ArXiv</a>]</b> &emsp; <b>Code: [<a href="https://github.com/lasgroup/gosafeopt">GitHub</a>]</b> 
+  <b>Paper: Available soon</b> &emsp; <b>Preprint: [<a href="https://arxiv.org/abs/2306.07092">ArXiv</a>]</b> &emsp; <b>Code: [<a href="https://github.com/lasgroup/gosafeopt">GitHub</a>]</b> 
 </p>
 
 <hr>
@@ -30,7 +30,7 @@ We validate our method through simulation and hardware experiments, where we dem
 
 <div class="embed-container">
     <iframe
-    src="https://www.youtube.com/embed/pceHWpFr3ng"
+    src="https://www.youtube.com/embed/zDBouUgegrU"
     width="700"
     height="480"
     frameborder="0"
@@ -71,7 +71,7 @@ We would like to thank Lenart Treven and Flavio De Vincenti for their feedback o
 This project has received funding from the Swiss National Science Foundation under NCCR Automation, grant agreement 51NF40 180545, 
 the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme, grant agreement No. 866480, 
 and the Microsoft Swiss Joint Research Center.
-</p>]]></content><author><name>Daniel Widmer</name></author><category term="publication" /><category term="robotics" /><category term="conference" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">RL + Model-based Control: Using On-demand Optimal Control to Learn Versatile Legged Locomotion</title><link href="https://donghok.me/rl-plus-model-based-control/" rel="alternate" type="text/html" title="RL + Model-based Control: Using On-demand Optimal Control to Learn Versatile Legged Locomotion" /><published>2023-05-27T16:10:33+00:00</published><updated>2023-05-27T16:10:33+00:00</updated><id>https://donghok.me/rl-plus-model-based-control</id><content type="html" xml:base="https://donghok.me/rl-plus-model-based-control/"><![CDATA[<div class="row">
+</p>]]></content><author><name>Daniel Widmer</name></author><category term="publication" /><category term="robotics" /><category term="conference" /><summary type="html"><![CDATA[7th Annual Conference on Robot Learning (CoRL 2023)]]></summary></entry><entry><title type="html">RL + Model-based Control: Using On-demand Optimal Control to Learn Versatile Legged Locomotion</title><link href="https://donghok.me/rl-plus-model-based-control/" rel="alternate" type="text/html" title="RL + Model-based Control: Using On-demand Optimal Control to Learn Versatile Legged Locomotion" /><published>2023-05-27T16:10:33+00:00</published><updated>2023-05-27T16:10:33+00:00</updated><id>https://donghok.me/rl-plus-model-based-control</id><content type="html" xml:base="https://donghok.me/rl-plus-model-based-control/"><![CDATA[<div class="row">
   <div class="col-sm mt-3 mt-md-0">
       <img class="img-fluid" src="/assets/img/kang2023rl/kang2023rl.png" alt="" title="teaser"/>
   </div>

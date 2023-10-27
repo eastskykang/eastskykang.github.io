@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://donghok.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://donghok.me/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-10-26T04:11:24+00:00</updated><id>https://donghok.me/feed.xml</id><title type="html">DONGHO KANG</title><subtitle>I am a doctoral student at ETH Zurich and a research assistant at Computational Robotics Lab. My research aims to create a legged robot that can perform natural, animal-like motion. Thus, my research interests are broad ranging to legged locomotion control, computational model of character animation and design optimization for robotics applications.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://donghok.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://donghok.me/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-10-27T13:12:11+00:00</updated><id>https://donghok.me/feed.xml</id><title type="html">DONGHO KANG</title><subtitle>I am a doctoral student at ETH Zurich and a research assistant at Computational Robotics Lab. My research aims to create a legged robot that can perform natural, animal-like motion. Thus, my research interests are broad ranging to legged locomotion control, computational model of character animation and design optimization for robotics applications.
 </subtitle><entry><title type="html">Tuning Legged Locomotion Controllers via Safe Bayesian Optimization</title><link href="https://donghok.me/tuning-legged-locomotion-controllers/" rel="alternate" type="text/html" title="Tuning Legged Locomotion Controllers via Safe Bayesian Optimization" /><published>2023-06-08T13:58:00+00:00</published><updated>2023-06-08T13:58:00+00:00</updated><id>https://donghok.me/tuning-legged-locomotion-controllers</id><content type="html" xml:base="https://donghok.me/tuning-legged-locomotion-controllers/"><![CDATA[<div class="row">
   <div class="col-sm mt-3 mt-md-0">
       <img class="img-fluid" src="/assets/img/widmer2023tuning/widmer2023tuning.png" alt="" title="teaser"/>
@@ -23,7 +23,25 @@ We validate our method through simulation and hardware experiments, where we dem
 
 <hr>
 
-<h1>Supplementary Video</h1>
+<h1>Teaser Video</h1>
+
+<p>
+<!-- https://github.com/nathancy/jekyll-embed-video -->
+
+<div class="embed-container">
+    <iframe
+    src="https://www.youtube.com/embed/RULpeeTtOho"
+    width="700"
+    height="480"
+    frameborder="0"
+    allowfullscreen="">
+</iframe>
+</div>
+</p>
+
+<hr>
+
+<h1>Full Supplementary Video</h1>
 
 <p>
 <!-- https://github.com/nathancy/jekyll-embed-video -->
@@ -38,13 +56,6 @@ We validate our method through simulation and hardware experiments, where we dem
 </iframe>
 </div>
 </p>
-
-<!-- <hr>
-
-<h1>Presentation</h1>
-
-<p>
-</p> -->
 
 <!-- <hr>
 <h1>Bibtex</h1>

@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Dongho Kang",
-    "label": "Doctoral student",
+    "label": "",
     "image": "",
     "email": "kangd@ethz.ch",
     "phone": "",
     "url": "https://donghok.me/",
-    "summary": "A doctoral student of the computational robotics lab at ETH Zurich.",
+    "summary": "Doctoral student of the computational robotics lab at ETH Zurich.",
     "location": {
       "address": "Wasserwerkstrasse 12",
       "postalCode": "8092",
@@ -82,8 +82,8 @@
       ]
     },
     {
-      "institution": "ETH Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
+      "institution": "Seoul National University, Seoul, South Korea",
+      "url": "https://en.snu.ac.kr",
       "area": "Mechanical engineering and computer science (double major)",
       "studyType": "BSc",
       "startDate": "2009",

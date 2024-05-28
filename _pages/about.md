@@ -28,5 +28,5 @@ Thus, my research interests are broad ranging from legged locomotion control to 
 Apart from my professional bio, I am originally from Seoul, South Korea 🇰🇷. 
 Describing myself, I am a video game fan, and a classical music lover. 
 
-I am currently looking for self-motivated Master students (from ETH or students from any other institutes who can visit ETH Zurich by an available exchanging program) who are passionate to join our journey to build a bio-inspired legged robot. 
-If you are intested in participating in one of our 3-month (14-weeks, part-time) or 6-month (full-time) research projects at Computational Robotics Lab, please see more details [here](/bio-inspired-robots/) if you are interested.
+<!-- I am currently looking for self-motivated Master students (from ETH or students from any other institutes who can visit ETH Zurich by an available exchanging program) who are passionate to join our journey to build a bio-inspired legged robot. 
+If you are intested in participating in one of our 3-month (14-weeks, part-time) or 6-month (full-time) research projects at Computational Robotics Lab, please see more details [here](/bio-inspired-robots/) if you are interested. -->

@@ -1,0 +1,45 @@
+---
+title: "UnityMeshImporter"
+description: "A runtime mesh importer for Unity"
+author: Dongho Kang
+layout: post
+published: true
+date: 2020-04-12 09:38:33
+img: assets/img/kangd2020unity/unity-mesh-importer.gif
+tags: [graphics]
+categories: software
+permalink: /UnityMeshImporter/
+---
+<p>
+    Unity does not support run-time mesh import from files outside of the project for performance. 
+    Fortunately, <a href="https://bitbucket.org/Starnick/assimpnet">AssimpNet</a> provides nice Unity plugin enables loading various formats of mesh objects.
+</p>
+
+<p>
+    I wrote a Unity package based on this: <b>UnityMeshImporter</b>. This package loads mesh file by AssimpNet and convert it to a Unity GameObject. The source code is available on <a href="https://github.com/eastskykang/UnityMeshImporter">GitHub</a>.
+</p>
+<p>
+    It just works like this: 
+</p>
+
+{% highlight c# %}
+using UnityMeshImporter;
+
+string meshFile = "YOUR-MESH-FILE-PATH";
+var ob = MeshImporter.Load(meshFile); 
+{% endhighlight %}
+
+<br>
+
+<p>
+    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/kang2020unity/unity-mesh-importer.gif' | relative_url }}" alt="raisim-zerogravity-gif" title="Zero gravity test">
+</p>
+
+<p>
+    Very simple! 
+</p>
+<p>
+    You can find a simple example Unity app <a href="https://github.com/eastskykang/UnityMeshImportExample">here.</a> 
+    Please star the projects if you like it. Any comments or issue rerporting through GitHub issue is welcomed. 
+    This project is also used for <a href="https://github.com/leggedrobotics/RaiSimUnity">RaiSimUnity</a> project.
+</p>

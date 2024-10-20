@@ -1,0 +1,97 @@
+---
+title: End-to-End Collision Avoidance from Depth Input with Memory-based Deep Reinforcement Learning
+description: Master Thesis, D-MAVT, ETH Zurich.
+author: Dongho Kang
+layout: distill
+published: true
+date: 2019-08-17 04:48:45
+tags: [robotics, thesis]
+categories: research
+img: /assets/img/kang2019end/msc-thesis.png
+permalink: /end-to-end-collision-avoidance/
+authors:
+  - name: Dongho Kang
+    url: "https://donghok.me/"
+    affiliations:
+      name: D-MAVT<d-footnote>The Department of Mechanical and Process Engineering</d-footnote>, ETH Zurich
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid" src="{{ '/assets/img/kang2019end/msc-thesis.png' | relative_url }}" alt="" title="teaser"/>
+    </div>
+</div>
+
+<p> <!-- empty space for margin --> </p> 
+
+<h1>Abstract</h1>
+
+<p>
+    The main goal of this work is learning a local path planning policy for mobile robots from a single depth camera input. 
+    We formulate the end-to-end local planning problem as a Partially Observable Markov Decision Process and solve it using a Deep Reinforcement Learning algorithm. 
+    The main challenges of this setting comes from     
+    <ol>
+        <li>the short-sightedness of reaction-based planners, and </li>
+        <li>the limited field-of-view of depth camera </li>
+    </ol>
+    that significantly degrades the planner's performance. 
+</p>
+
+<p>
+    We resolve these problems by memory-based Deep Reinforcement Learning. 
+    This framework represents a policy as a network with a memory unit that can remember past observations. 
+    As a result, the trained policy can generate collision-safe trajectories based on not only a current observation but also previous observations. 
+    We also address sample inefficiency of end-to-end learning by 
+    <ol>
+        <li>a two-stream feature extraction with pre-trained autoencoder</li>
+        <li>asymmetric actor-critic method.</li>
+    </ol>    
+    These methods were demonstrated to be effective for fast convergence by our ablation study results. 
+    Finally we bridge the reality gap between real depth image and simulated depth image by real-time depth completion algorithm and pre-training autoencoder with both real images and simulate images.  
+</p>
+
+<p>
+    In the quantitative evaluation, our policy with memory units outperforms standard CNN policy. 
+    Notably, the policy with Temporal Convolutional layers learned much faster than the policy with conventional LSTM. 
+    In the following real robot experiments, we deployed the trained policy to the quadrupedal robot ANYmal with Intel RealSense depth camera. 
+    Our policy generated collision-safe paths reactively in both stationary and dynamic environments. 
+</p>
+
+<p>
+    <b>Paper: [<a href="https://www.research-collection.ethz.ch/handle/20.500.11850/444961">ETH Research Collection</a>]</b>
+</p>
+
+<hr>
+
+<h1>Supplementary videos</h1>
+
+<h2>Simulation result</h2>
+
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9HCeVl07H3U" allowfullscreen></iframe>
+</div>
+
+<h2>Real robot experiments</h2>
+
+<div class="embed-responsive embed-responsive-16by9"></div>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mMeGOD2WEXI" allowfullscreen></iframe>
+</div>
+
+<div class="embed-responsive embed-responsive-16by9"></div>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8N3d8tcVccM" allowfullscreen></iframe>
+</div>
+
+<hr>
+
+<h1>Bibtex</h1>
+
+<p>
+{% highlight bib %}
+@mastersthesis{kang2019end,
+    title={End-to-End Collision Avoidance from Depth Input with Memory-based Deep Reinforcement Learning},
+    author={Kang, Dongho},
+    year={2019},
+    school={ETH Zurich},
+}
+{% endhighlight %}
+</p>

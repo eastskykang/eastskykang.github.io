@@ -2,24 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Legged robotics, character animation, optimal control, and reinforcement learning
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Wasserwerkstrasse 12</p>
+    <p>8092 Zurich</p>
+    <p>Switzerland</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a doctoral student in computer science based in Zurich, Switzerland 🇨🇭. 
+From 2019, I am a scientific assistant of the [Computational Robotics Lab](http://crl.ethz.ch), ETH Zurich, under the supervision of Prof. Stelian Coros.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+The goal of my research is to create legged robots that exhibit natural and animal-like behaviors. 
+Thus, my research interests are broad ranging from legged locomotion control to computational methods for motion and behavior synthesys. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Apart from my professional bio, I am originally from Seoul, South Korea 🇰🇷. 
+Describing myself, I am a video game fan and a classical music lover. 

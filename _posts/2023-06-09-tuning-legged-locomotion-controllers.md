@@ -40,42 +40,30 @@ bibliography:
   </div>
 </div>
 
-<p> <!-- empty space for margin --> </p> 
+<br> 
 
-<h1>Abstract</h1>
+# Abstract
 
-<p>
 This paper presents a data-driven strategy to streamline the deployment of model-based controllers in legged robotic hardware platforms. 
 Our approach leverages a model-free safe learning algorithm to automate the tuning of control gains, addressing the mismatch between the simplified model used in the control formulation and the real system.
 This method substantially mitigates the risk of hazardous interactions with the robot by sample-efficiently optimizing parameters within a probably safe region.
 Additionally, we extend the applicability of our approach to incorporate the different gait parameters as contexts, leading to a safe, sample-efficient exploration algorithm capable of tuning a motion controller for diverse gait patterns.
 We validate our method through simulation and hardware experiments, where we demonstrate that the algorithm obtains superior performance on tuning a model-based motion controller for multiple gaits safely.
-</p>
 
-<p>
-  <b>Paper: [<a href="https://proceedings.mlr.press/v229/widmer23a.html">PMLR</a>]</b> &emsp; <b>Open access: [<a href="https://arxiv.org/abs/2306.07092">ArXiv</a>]</b> &emsp; <b>Code: [<a href="https://github.com/lasgroup/gosafeopt">GitHub</a>]</b> 
-</p>
+**Paper: [<a href="">PMLR</a>]** &emsp; **Open access: [<a href="https://arxiv.org/abs/2306.07092">ArXiv</a>]** &emsp; **Code: [<a href="https://github.com/lasgroup/gosafeopt">GitHub</a>]**
 
-<hr>
+-----
 
-<h1>Teaser Video</h1>
-
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RULpeeTtOho" allowfullscreen></iframe>
-</div>  
-
-<hr>
-
-<h1>Full Supplementary Video</h1>
+# Full Supplementary Video
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zVm7IkYofbg" allowfullscreen></iframe>
 </div>  
 
-<hr>
-<h1>Bibtex</h1>
+-----
 
-<p>
+# Bibtex
+
 {% highlight txt %}
 @InProceedings{pmlr-v229-widmer23a,
   title = {Tuning Legged Locomotion Controllers via Safe Bayesian Optimization},
@@ -90,17 +78,11 @@ We validate our method through simulation and hardware experiments, where we dem
   publisher = {PMLR}
 }
 {% endhighlight %}
-</p>
 
-<hr>
-<h1>Acknowledgment</h1>
+-----
 
-<p>
+# Acknowledgment
+
 We would like to thank Lenart Treven and Flavio De Vincenti for their feedback on this work. 
-</p>
 
-<p>
-This project has received funding from the Swiss National Science Foundation under NCCR Automation, grant agreement 51NF40 180545, 
-the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme, grant agreement No. 866480, 
-and the Microsoft Swiss Joint Research Center.
-</p>
+This project has received funding from the Swiss National Science Foundation under NCCR Automation, grant agreement 51NF40 180545, the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme, grant agreement No. 866480, and the Microsoft Swiss Joint Research Center.

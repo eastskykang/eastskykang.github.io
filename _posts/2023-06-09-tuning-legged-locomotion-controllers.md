@@ -50,7 +50,7 @@ This method substantially mitigates the risk of hazardous interactions with the 
 Additionally, we extend the applicability of our approach to incorporate the different gait parameters as contexts, leading to a safe, sample-efficient exploration algorithm capable of tuning a motion controller for diverse gait patterns.
 We validate our method through simulation and hardware experiments, where we demonstrate that the algorithm obtains superior performance on tuning a model-based motion controller for multiple gaits safely.
 
-**Paper: [<a href="">PMLR</a>]** &emsp; **Open access: [<a href="https://arxiv.org/abs/2306.07092">ArXiv</a>]** &emsp; **Code: [<a href="https://github.com/lasgroup/gosafeopt">GitHub</a>]**
+**Paper: [[PMLR](https://proceedings.mlr.press/v229/widmer23a.html)]** &emsp; **Open access: [[ArXiv](https://arxiv.org/abs/2306.07092)]** &emsp; **Code: [[GitHub](https://github.com/lasgroup/gosafeopt)]**
 
 -----
 

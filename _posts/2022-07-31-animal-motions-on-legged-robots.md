@@ -32,41 +32,36 @@ bibliography:
   </div>
 </div>
 
-<p> <!-- empty space for margin --> </p> 
+<br>
 
-<h1>Abstract</h1>
+# Abstract
 
-<p>
 This work presents a motion capture-driven locomotion controller for quadrupedal robots that replicates the non-periodic footsteps and subtle body movement of animal motions. 
 We adopt a nonlinear model predictive control (NMPC) formulation that generates optimal base trajectories and stepping locations. By optimizing both footholds and base trajectories, our controller effectively tracks retargeted animal motions with natural body movements and highly irregular strides. 
 We demonstrate our approach with prerecorded animal motion capture data. In simulation and hardware experiments, our motion controller enables quadrupedal robots to robustly reproduce fundamental characteristics of a target animal motion regardless of the significant morphological disparity.
-</p>
 
-<p>
-  <b>Paper: [<a href="https://ieeexplore.ieee.org/document/9981945">IEEE Xplore</a>]</b> &emsp; <b>Open access: [<a href="https://www.research-collection.ethz.ch/handle/20.500.11850/589749">ETH Research Collection</a>]</b> 
-</p>
+**Paper: [[IEEE Xplore](https://ieeexplore.ieee.org/document/9981945)]** &emsp; **Open access: [[ETH Research Collection](https://www.research-collection.ethz.ch/handle/20.500.11850/589749)]**
 
-<hr>
+-----
 
-<h1>Supplementary Video</h1>
+# Supplementary Video
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TVV_GcNZ0Ts" allowfullscreen></iframe>
 </div>
 
-<hr>
+-----
 
-<h1>Presentation</h1>
+# Presentation
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nv2VcuxtL4s" allowfullscreen></iframe>
 </div>
 
-<hr>
+-----
 
-<h1>Bibtex</h1>
+# Bibtex
 
-<p>
 {% highlight txt %}
 @inproceedings{kang2022animal,
   title={Animal Motions on Legged Robots Using Nonlinear Model Predictive Control}, 
@@ -78,11 +73,9 @@ We demonstrate our approach with prerecorded animal motion capture data. In simu
   doi={10.1109/IROS47612.2022.9981945}
 }
 {% endhighlight %}
-  </p>
 
-<hr>
-<h1>Acknowledgment</h1>
+-----
 
-<p>
+# Acknowledgment
+
 This work has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 866480.) The ethics have been approved by the veterinary authorities of the canton Z&uuml;rich.
-</p>

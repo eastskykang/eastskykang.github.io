@@ -30,38 +30,31 @@ bibliography:
   </div>
 </div>
 
-<p> <!-- empty space for margin --> </p> 
+<br>
 
-<h1>Abstract</h1>
+# Abstract
 
-<p>
 In this paper, we explore the challenge of generating animal-like walking motions for legged robots. 
 To this end, we propose a versatile and robust control pipeline that combines a state-of-the-art model-based controller with a data-driven technique that is commonly used in computer animation.
 We demonstrate the efficacy of our control framework on a variety of quadrupedal robots in  simulation. 
 We show, in particular, that our approach can automatically reproduce key characteristics of animal motions, including speed-specific gaits, unscripted footfall patterns for nonperiodic motions, and natural small variations in overall body movements.
-</p>
 
-<p>
-  <b>Paper: [<a href="https://ieeexplore.ieee.org/document/9635838">IEEE Xplore</a>]</b> &emsp; <b>Open access: [<a href="https://www.research-collection.ethz.ch/handle/20.500.11850/528453">ETH Research Collection</a>]</b> 
-</p>
+**Paper: [[IEEE Xplore](https://ieeexplore.ieee.org/document/9635838)]** &emsp; **Open access: [[ETH Research Collection](https://www.research-collection.ethz.ch/handle/20.500.11850/528453)]** 
 
-<p>
-  <b>News:</b> our supplementary video of "Animal Gaits on Quadrupedal Robots Using Motion Matching and Model Based Control" has been selected for <a href="https://spectrum.ieee.org/video-friday-robot-opera">IEEE Spectrum Video Friday collection</a> on August 06th 2021!
-</p>
+**News:** our supplementary video of "Animal Gaits on Quadrupedal Robots Using Motion Matching and Model Based Control" has been selected for [IEEE Spectrum Video Friday collection](https://spectrum.ieee.org/video-friday-robot-opera) on August 06th 2021!
 
-<hr>
+-----
 
-<h1>Supplementary Video</h1>
+# Supplementary Video
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6-zTPTL0fJY" allowfullscreen></iframe>
 </div>
 
-<hr>
+-----
 
-<h1>Bibtex</h1>
+# Bibtex
 
-<p>
 {% highlight txt %}
 @inproceedings{kang2021animal,
   title={Animal Gaits on Quadrupedal Robots Using Motion Matching and Model-Based Control},
@@ -73,11 +66,9 @@ We show, in particular, that our approach can automatically reproduce key charac
   doi={10.1109/IROS51168.2021.9635838}
 }
 {% endhighlight %}
-</p>
 
-<hr>
-<h1>Acknowledgment</h1>
+-----
 
-<p>
+# Acknowledgment
+
 This work has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 866480.)
-</p>

@@ -14,7 +14,7 @@ authors:
     affiliations:
       name: CRL<d-footnote>Computational Robotics Lab.</d-footnote>, ETH Zurich
   - name: Jin Cheng
-    url: "https://sukhijab.github.io/"
+    url: "https://jin-cheng.me/"
     affiliations:
       name: CRL, ETH Zurich
   - name: Fatemeh Zargarbashi
@@ -24,6 +24,7 @@ authors:
     affiliations:
       name: RILAB<d-footnote>Robot Intelligence Lab.</d-footnote>, Korea University
   - name: Sungjoon Choi
+    url: "https://sites.google.com/view/sungjoon-choi/personal"
     affiliations:
       name: RILAB, Korea University
   - name: Stelian Coros

@@ -47,7 +47,7 @@ This paper presents a control framework for legged robots that leverages unstruc
 
 **Open access: [[ArXiv](https://arxiv.org/abs/2507.00677)]**
 
-<!-- -----
+-----
 
 # Full Supplementary Video
 
@@ -55,7 +55,7 @@ This paper presents a control framework for legged robots that leverages unstruc
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DukyUGNYf5A" allowfullscreen></iframe>
 </div>  
 
------
+<!-- -----
 
 # Bibtex
 

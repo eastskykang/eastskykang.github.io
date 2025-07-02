@@ -1,6 +1,6 @@
 ---
 title: "Learning Steerable Imitation Controllers From Unstructured Animal Motions"
-description: 
+description: ArXiv
 layout: distill
 published: true
 date: 2025-07-02 22:39:00

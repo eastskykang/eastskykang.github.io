@@ -28,21 +28,10 @@
       "position": "Scientific assistant",
       "url": "https://crl.ethz.ch/",
       "startDate": "2019",
-      "endDate": "",
+      "endDate": "2025",
       "summary": "Supervisor: Prof. Stelian Coros",
       "highlights": [
         "Research topic: control algorithms for bio-inspired quadrupedal robots with natural and animal-like motion."
-      ]
-    },
-    {
-      "name": "Robotic Systems Lab, ETH Zurich",
-      "position": "Master student",
-      "url": "https://rsl.ethz.ch/",
-      "startDate": "2017",
-      "endDate": "2019",
-      "summary": "Supervisor: Prof. Marco Hutter",
-      "highlights": [
-        "Research topic: learning-based control methods for legged robots and physics engine for robotics applications."
       ]
     },
     {
@@ -53,7 +42,7 @@
       "endDate": "2018-12",
       "summary": "",
       "highlights": [
-        "Project: deep learning-based Super-resolution and anti-aliasing methods."
+        "Project: Super-resolution and anti-aliasing algorithms for DLSS."
       ]
     }
   ],
@@ -64,7 +53,7 @@
       "area": "Computer science",
       "studyType": "PhD",
       "startDate": "2020",
-      "endDate": "",
+      "endDate": "2025",
       "score": "",
       "courses": [
       ]
@@ -105,7 +94,6 @@
       "keywords": [
         "C/C++", 
         "Python", 
-        "Matlab/Octave", 
         "Unix/Linux", 
         "Pytorch", 
         "ROS", 

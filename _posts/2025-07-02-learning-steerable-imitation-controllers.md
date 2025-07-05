@@ -6,8 +6,8 @@ published: true
 date: 2025-07-02 22:39:00
 img: /assets/img/kang2025learning/teaser.jpg
 permalink: /learning-steerable-imitation-controllers/
-tags: [robotics]
-categories: research
+tags: [robotics, character animation]
+categories: publication
 authors:
   - name: Dongho Kang
     url: "https://donghok.me/"

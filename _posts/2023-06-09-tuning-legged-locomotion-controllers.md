@@ -6,8 +6,8 @@ published: true
 date: 2023-06-08 13:58:00
 img: /assets/img/widmer2023tuning/widmer2023tuning.png
 permalink: /tuning-legged-locomotion-controllers/
-tags: [robotics, conference]
-categories: research
+tags: [robotics]
+categories: publication
 authors:
   - name: Daniel Widmer<sup>*</sup><d-footnote>* The first two authors contributed equally.</d-footnote>
     affiliations:

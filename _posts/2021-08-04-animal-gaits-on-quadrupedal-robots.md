@@ -6,8 +6,8 @@ published: true
 date: 2021-08-04 14:44:33
 img: /assets/img/kang2021animal/teaser.png
 permalink: /animal-gaits-on-quadrupedal-robots/
-tags: [robotics, character animation, conference]
-categories: research
+tags: [robotics, character animation]
+categories: publication
 authors:
   - name: Dongho Kang
     url: "https://donghok.me/"

@@ -67,13 +67,19 @@ Video presentation at ["ICRA 2022 - 6th Full-Day Workshop on Legged Robots"](htt
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J9GfVgz80lk" allowfullscreen></iframe>
 </div>
 
+<br>
+
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D99qXOs9uQs" allowfullscreen></iframe>
 </div>
 
+<br>
+
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rUv4jwwKFiY" allowfullscreen></iframe>
 </div>
+
+<br>
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NCCBZf-Nuas" allowfullscreen></iframe>

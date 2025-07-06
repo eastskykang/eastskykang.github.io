@@ -7,7 +7,7 @@ date: 2022-07-31 15:12:33
 img: /assets/img/kang2022animal/kang2022animal.png
 permalink: /animal-motions-on-legged-robots/
 tags: [robotics, conference]
-categories: research
+categories: publication
 authors:
   - name: Dongho Kang
     url: "https://donghok.me/"

@@ -50,35 +50,45 @@ This paper presents a control framework for legged robots that leverages unstruc
 
 -----
 
-# Full Supplementary Video
+# Supplementary Video
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DukyUGNYf5A" allowfullscreen></iframe>
 </div>  
 
-<!-- -----
+-----
+
+# Demos
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/kang2025learning/steerable-locomotion.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <!-- <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div> -->
+</div>
+
+-----
 
 # Bibtex
 
 {% highlight txt %}
-@InProceedings{pmlr-v229-widmer23a,
-  title = {Tuning Legged Locomotion Controllers via Safe Bayesian Optimization},
-  author = {Widmer, Daniel and Kang, Dongho and Sukhija, Bhavya and H\"{u}botter, Jonas and Krause, Andreas and Coros, Stelian},
-  booktitle = {Proceedings of The 7th Conference on Robot Learning},
-  pages = {2444--2464},
-  year = {2023},
-  editor = {Tan, Jie and Toussaint, Marc and Darvish, Kourosh},
-  volume = {229},
-  series = {Proceedings of Machine Learning Research},
-  month = {06--09 Nov},
-  publisher = {PMLR}
+@misc{kang2025learningsteerableimitationcontrollers,
+  title={Learning Steerable Imitation Controllers from Unstructured Animal Motions}, 
+  author={Dongho Kang and Jin Cheng and Fatemeh Zargarbashi and Taerim Yoon and Sungjoon Choi and Stelian Coros},
+  year={2025},
+  eprint={2507.00677},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2507.00677}, 
 }
 {% endhighlight %}
 
------
+<!-- -----
 
 # Acknowledgment
 
 We would like to thank Lenart Treven and Flavio De Vincenti for their feedback on this work. 
 
-This project has received funding from the Swiss National Science Foundation under NCCR Automation, grant agreement 51NF40 180545, the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme, grant agreement No. 866480, and the Microsoft Swiss Joint Research Center. -->
+This project has received funding from the Swiss National Science Foundation under NCCR Automation, grant agreement 51NF40 180545, the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme, grant agreement No. 866480, and the Microsoft Swiss Joint Research Center.  -->

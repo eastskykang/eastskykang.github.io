@@ -62,11 +62,20 @@ This paper presents a control framework for legged robots that leverages unstruc
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/kang2025learning/sit-pace-sit.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/kang2025learning/spin.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/kang2025learning/gallop.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/kang2025learning/steerable-locomotion.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
-    <!-- <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-    </div> -->
 </div>
 
 -----

@@ -62,20 +62,26 @@ This paper presents a control framework for legged robots that leverages unstruc
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/kang2025learning/sit-pace-sit.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/kang2025learning/sit-pace-sit.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/kang2025learning/spin.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/kang2025learning/spin.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/kang2025learning/gallop.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/kang2025learning/gallop.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true  %}
     </div>
+</div>
+<div class="caption">
+    Prerecorded dog motion sequences to a real-world robot: <i>Sit-pace-sit</i> (left), <i>Spin</i> (middle) and <i>Gallop</i> (right)
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/kang2025learning/steerable-locomotion.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/kang2025learning/steerable-locomotion.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
+</div>
+<div class="caption">
+    <i>Unitree Go2</i> robot navigating freely across a grass field in response to joystick commands.
 </div>
 
 -----

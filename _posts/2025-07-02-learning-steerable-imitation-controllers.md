@@ -77,6 +77,15 @@ This paper presents a control framework for legged robots that leverages unstruc
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/kang2025learning/transitions.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+    </div>
+</div>
+<div class="caption">
+    <i>Unitree Go2</i> robot adaptively changing its gait pattern based on the forward velocity command.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/kang2025learning/steerable-locomotion.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
 </div>

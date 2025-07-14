@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://donghok.me/sitemap.xml
+Sitemap: https://kangdongho.me/sitemap.xml

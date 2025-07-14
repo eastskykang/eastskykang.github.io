@@ -13,7 +13,7 @@ authors:
     affiliations:
       name: D-MAVT<d-footnote>Dept. of Mechanical and Process Engineering</d-footnote>, ETH Zurich
   - name: Dongho Kang<sup>*</sup>
-    url: "https://donghok.me/"
+    url: "https://donghokang.net/"
     affiliations:
       name: CRL<d-footnote>Computational Robotics Lab.</d-footnote>, ETH Zurich
   - name: Bhavya Sukhija

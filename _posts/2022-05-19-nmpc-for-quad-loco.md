@@ -10,7 +10,7 @@ tags: [robotics, arxiv]
 categories: publication
 authors:
   - name: Dongho Kang
-    url: "https://donghok.me/"
+    url: "https://donghokang.net/"
     affiliations:
       name: CRL<d-footnote>Computational Robotics Lab.</d-footnote>, ETH Zurich
   - name: Flavio De Vintenti

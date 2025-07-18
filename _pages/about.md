@@ -7,7 +7,7 @@ subtitle: Legged robotics, character animation, optimal control, and reinforceme
 profile:
   align: right
   image: profile.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Wasserwerkstrasse 12</p>
     <p>8092 Zurich</p>

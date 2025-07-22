@@ -18,6 +18,7 @@ authors:
     affiliations:
       name: CRL, ETH Zurich
   - name: Fatemeh Zargarbashi
+    url: "https://fzargarbashi.github.io/"
     affiliations:
       name: CRL, ETH Zurich
   - name: Taerim Yoon

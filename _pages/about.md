@@ -18,11 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a doctoral student in computer science based in Zurich, Switzerland 🇨🇭. 
-From 2019, I am a scientific assistant of the [Computational Robotics Lab](http://crl.ethz.ch), ETH Zurich, under the supervision of Prof. Stelian Coros.
+I am a research scientist at the [Robotics and AI Institute (RAI institute)](https://rai-inst.com/) based in Zurich, Switzerland 🇨🇭. 
+I completed my doctorate in computer science in 2025 at the [Computational Robotics Lab](http://crl.ethz.ch), ETH Zurich, under the supervision of Prof. Stelian Coros. My doctoral research focused on developing control algorithms that enable legged robots to move like real animals.
 
-The goal of my research is to create legged robots that exhibit natural and animal-like behaviors. 
-Thus, my research interests are broad ranging from legged locomotion control to computational methods for motion and behavior synthesys. 
+My ultimate goal is to create robots that exhibit lifelike, natural, and adaptive motor skills. To achieve this, my research lies at the intersection of optimal control, reinforcement learning, and data-driven character animation.
 
-Apart from my professional bio, I am originally from Seoul, South Korea 🇰🇷. 
-Describing myself, I am a video game fan and a classical music lover. 
+I'm originally from Seoul, South Korea 🇰🇷, where I spent the first 25 years of my life. Outside of my research, I'm a huge fan of video games and classical music, and also enjoy animation and sci-fi movies.

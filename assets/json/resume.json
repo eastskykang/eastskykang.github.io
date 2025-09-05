@@ -24,6 +24,13 @@
   },
   "work": [
     {
+      "name": "Robotics and AI Institute",
+      "position": "Reserach scientist",
+      "url": "https://rai-inst.com/",
+      "startDate": "2025",
+      "endDate": "Present"
+    },
+    {
       "name": "Computational Robotics Lab, ETH Zurich",
       "position": "Scientific assistant",
       "url": "https://crl.ethz.ch/",
@@ -105,7 +112,7 @@
       "name": "Experience with Robots",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "UnitreeRobotics A1, Aliengo, Go1, Go2, B2",
+        "UnitreeRobotics A1, Aliengo, Go1, Go2, B2, G1",
         "ANYbotics ANYmal"
       ]
     }

@@ -9,8 +9,8 @@ profile:
   image: profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Wasserwerkstrasse 12</p>
-    <p>8092 Zurich</p>
+    <p>Elias-Canetti-Strasse 2</p>
+    <p>8050 Zurich</p>
     <p>Switzerland</p>
 
 news: true # includes a list of news items

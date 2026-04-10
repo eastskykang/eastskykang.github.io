@@ -1,5 +1,5 @@
 ---
-title: "Learning Steerable Imitation Controllers From Unstructured Animal Motions"
+title: "Walk Like Dogs: Learning Steerable Imitation Controllers for Legged Robots from Unlabeled Motion Data"
 description: ArXiv
 layout: distill
 published: true
@@ -45,7 +45,7 @@ bibliography:
 
 # Abstract
 
-This paper presents a control framework for legged robots that leverages unstructured real-world animal motion data to generate animal-like and user-steerable behaviors. Our framework learns to follow velocity commands while reproducing the diverse gait patterns in the original dataset. To begin with, animal motion data is transformed into a robot-compatible database using constrained inverse kinematics and model predictive control, bridging the morphological and physical gap between the animal and the robot. Subsequently, a variational autoencoder-based motion synthesis module captures the diverse locomotion patterns in the motion database and generates smooth transitions between them in response to velocity commands. The resulting kinematic motions serve as references for a reinforcement learning-based feedback controller deployed on physical robots. We show that this approach enables a quadruped robot to adaptively switch gaits and accurately track user velocity commands while maintaining the stylistic coherence of the motion data. Additionally, we provide component-wise evaluations to analyze the system's behavior in depth and demonstrate the efficacy of our method for more accurate and reliable motion imitation.
+We present an imitation learning framework that extracts distinctive legged locomotion behaviors and transitions between them from unlabeled real-world motion data. By automatically discovering behavioral modes and mapping user steering commands to them, the framework enables user-steerable and stylistically consistent motion imitation. Our approach first bridges the morphological and physical gap between the motion source and the robot by transforming raw data into a physically consistent, robot-compatible dataset using a kino-dynamic motion retargeting strategy. This data is used to train a steerable motion synthesis module that generates stylistic, multi-modal kinematic targets from high-level user commands. These targets serve as a reference for a reinforcement learning controller, which reliably executes them on the robot hardware. In our experiments, a controller trained on dog motion data demonstrated distinctive quadrupedal gait patterns and emergent gait transitions in response to varying velocity commands. These behaviors were achieved without manual labeling, predefined mode counts, or explicit switching rules, maintaining the stylistic coherence of the data.
 
 **Open access: [[ArXiv](https://arxiv.org/abs/2507.00677)]**
 
@@ -99,21 +99,19 @@ This paper presents a control framework for legged robots that leverages unstruc
 # Bibtex
 
 {% highlight txt %}
-@misc{kang2025learningsteerableimitationcontrollers,
-  title={Learning Steerable Imitation Controllers from Unstructured Animal Motions}, 
-  author={Dongho Kang and Jin Cheng and Fatemeh Zargarbashi and Taerim Yoon and Sungjoon Choi and Stelian Coros},
-  year={2025},
-  eprint={2507.00677},
-  archivePrefix={arXiv},
-  primaryClass={cs.RO},
-  url={https://arxiv.org/abs/2507.00677}, 
+@misc{kang2026walklikedogs,
+      title={Walk Like Dogs: Learning Steerable Imitation Controllers for Legged Robots from Unlabeled Motion Data}, 
+      author={Dongho Kang and Jin Cheng and Fatemeh Zargarbashi and Taerim Yoon and Sungjoon Choi and Stelian Coros},
+      year={2026},
+      eprint={2507.00677},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2507.00677}, 
 }
 {% endhighlight %}
 
-<!-- -----
+-----
 
 # Acknowledgment
 
-We would like to thank Lenart Treven and Flavio De Vincenti for their feedback on this work. 
-
-This project has received funding from the Swiss National Science Foundation under NCCR Automation, grant agreement 51NF40 180545, the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme, grant agreement No. 866480, and the Microsoft Swiss Joint Research Center.  -->
+This work has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 866480.)

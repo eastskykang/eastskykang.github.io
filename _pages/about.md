@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 I am a Research Scientist at the [Robotics and AI Institute (RAI Institute)](https://rai-inst.com/) based in Zurich, Switzerland 🇨🇭. 
 
-Since joining the RAI Institute, I have been part of the collaborative humanoid robotics research initiative with Boston Dynamics (BD), developing control algorithms for [natural, fully steerable locomotion that was demonstrated live on stage during the launch of the new BD Atlas at CES 2026](https://youtu.be/YA_TlJv0Uro?si=uLsvIEx9Oq0wiEyK&t=22).
+Since joining the RAI Institute, I have been part of the collaborative humanoid robotics research initiative with Boston Dynamics (BD), developing control algorithms for [natural, fully steerable locomotion that was demonstrated live on stage during the launch of the new BD Atlas at CES 2026](https://youtu.be/YA_TlJv0Uro?si=BVkoY7Oobapzoptn&t=23).
 
 Prior to this, I completed my PhD in Computer Science in 2025 at the [Computational Robotics Lab](http://crl.ethz.ch), ETH Zurich, under the supervision of Prof. Stelian Coros. My doctoral research focused on developing control algorithms that enable legged robots to move like real animals by leveraging biological motion capture data.
 
